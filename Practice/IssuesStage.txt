@@ -1,0 +1,9 @@
+1. Student Manager window:- When Notes tab is clicked an error is appearing.
+Error:- We're sorry there was an error while processing your request.
+2. Orion - notes 
+
+ 1- 110752  -  STAGE - KU Portal - Error on Self Registration
+2- 110748 - STAGE - KU Portal - Application Error on posting Instructor Concern
+3- 110755 -  STAGE - KU Portal - Application Error on 'Grade Change Request' and 'Incomplete Grade Request'
+4- 110758 - STAGE - KVU Admin Portal - Course Configuration do not get populated
+5- 110762 - STAGE - KU Portal - Error on posting Ground Attendance

@@ -1,0 +1,2 @@
+Add the Reference to the Projects
+Add a New Coded UI Test

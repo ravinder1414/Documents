@@ -1,0 +1,5 @@
+1. manual team meeting - (time)
+2. prioritization of tc - (time taken)
+3. manual metrics - (time taken)
+4. find automation candidates find (time taken)
+5. 

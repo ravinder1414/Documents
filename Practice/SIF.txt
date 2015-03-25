@@ -1,0 +1,5 @@
+The reference id for this submission is 35536842
+
+<?xml version="1.0" encoding="UTF-8"?><sif><sifheader VendorID="61335" CampainID="" Channel="24" AffiliateID="ASD-2953783" SourceCode="872735" SIFID="279" SIFVersionID="2311" VendorDate="12/05/2013" /><sifdetail><FName>STV_KU_LeadRTar118</FName><LName>STV_KU_LeadRTar118</LName><Email>STV_KU_LeadRTar118q@test.com</Email><WPhone>9105518697</WPhone><Hphone></Hphone><Address>5543 Pepperbush dr.</Address><Address2></Address2><City>fayetteville</City><State>North Carolina</State><Zip>28304</Zip><Country>United States</Country><starttime></starttime><USCitizen>YES</USCitizen><HighestEducation>GED</HighestEducation><GradYear>2013</GradYear><KUReferral></KUReferral><Military>No</Military><Military2>No</Military2><AreaStudy>HS</AreaStudy><Program>BSHW</Program><TCPA_Disc>Yes</TCPA_Disc><URL></URL><AGGLeadID>3D7ADAD8-1CB3-4409-2E09-E1F373C9CBB9</AGGLeadID></sifdetail></sif>
+
+
