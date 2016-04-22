@@ -49,3 +49,11 @@ mvn clean verify -Dcucumber.options="--tags @Smoke" -Dbrowser=chrome -Denv=orion
 mvn clean verify -Dcucumber.options="--tags @Smoke" -Dbrowser=chrome -Denv=orion1stage    orion1 staging scripts to run the test
 
 
+
+
+how to run testng test cases
+
+
+mvn clean install -DEnv=Test  first go to that repository and after that run that particular test cases 
+
+
