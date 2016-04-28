@@ -1,0 +1,41 @@
+questions
+
+what is rest based services
+
+what is web services
+
+what is null pointer exceptions
+
+what is soap services
+
+how to short array list.
+
+
+what is use of attaributes in HTML
+
+How to capture radio button through XPATH
+
+Run times and compile time polymorphism
+
+class variable,local,instance variables difference
+
+
+how to fetch data from excel files
+
+
+
+What is use of main method in java
+
+Use of Listeners in TestNG
+
+
+1.How to integrate Jira with Jenkins
+
+2.How to download files through selenium webdriver.
+
+
+ URL:- http://seleniumeasy.com/selenium-tutorials/how-to-download-a-file-with-webdriver
+
+
+
+

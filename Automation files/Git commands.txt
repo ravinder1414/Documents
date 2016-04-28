@@ -1,0 +1,59 @@
+git commands
+
+git --version
+
+
+create Local Repository
+
+git init project1  where project1 is the Repository name.
+
+Check git status command
+
+git status
+
+git status -s  Git short status
+or
+git status --short  Git more short status
+
+Add files
+
+git add filename
+
+Git commit
+
+git commit -m "comment name"
+
+git config --list    to show the user details
+
+git config user.name  to show the logged-in user
+
+git log     to shown the history of commite files
+
+git log -p -2  to show the last two entries
+
+git log --pretty=oneline   to check git log in one line
+
+git remote -v   to find the git remote server details command
+
+git push origin master   to push the changes on remote branch
+
+git checkout master  to switch to any branch
+
+git barnch branchname  to create a new branch
+
+gitk  to check the log
+
+
+http://git-scm.com/book  github book
+
+http://teach.github.com   another git book
+
+
+git push -u origin master
+
+
+git branch            it shows only local branches created
+
+git branch -a         it shows all remote branches as well as local branches
+
+

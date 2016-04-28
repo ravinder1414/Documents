@@ -1,0 +1,15 @@
+//Window Handles
+
+
+public String mainwinhandle;
+
+
+
+						String parentHandle = driver.getWindowHandle();
+					
+						Set <String> winHandles = driver.getWindowHandles();
+						for (String currentWindowHandle : winHandles) {
+							if (!currentWindowHandle.equals(parentHandle)) {
+								
+								driver.switchTo().window(currentWindowHandle);
+								System.out.println(sEmailAddress);

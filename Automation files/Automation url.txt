@@ -1,0 +1,81 @@
+https://www.youtube.com/watch?v=zfmbJDplJ34  selenium maven integration
+
+
+https://www.youtube.com/watch?v=lTQGi5jzjvo  How to install git maven jenkins
+
+
+http://www.seleniumtests.com/  Selenium video
+
+https://www.youtube.com/watch?v=U8GBXvdmHT4  Github video
+
+http://www.ibm.com/developerworks/library/a-automating-ria/   Cucumber Automation
+
+
+https://www.youtube.com/watch?v=pD4B839qfos  Video cucmber 1
+
+https://www.youtube.com/watch?v=093grYNqJ9g  video cucumber 2
+
+
+http://www.toolsqa.com/selenium-webdriver/autoit-selenium-webdriver/  AutoIT Handler url and steps to create autoIT
+
+
+http://essenceoftesting.blogspot.in/2015/05/role-of-automation-in-testing.html   vodQA Links for automation
+
+
+http://www.thetestroom.com/   automation url
+
+
+https://www.youtube.com/watch?v=HQbsbjgwIZA   mobile automation video
+
+
+https://www.youtube.com/watch?v=r-M9Xhk026A  mobile automation 2
+
+
+
+http://www.thoughtworks.com/insights/blog/client-side-performance-testing-tutorial?utm_campaign=shareaholic&utm_medium=twitter&utm_source=socialnetwork                      Client side performance tutorials
+
+
+
+http://essenceoftesting.blogspot.in/2015/05/role-of-automation-in-testing.html       Automation Testing VodQA
+
+http://members.scrumalliance.org/events/1171-talk-with-anand-bagmar-on-role-of-automation-in-testing   aUTOMATION tESTING VODQA
+
+
+http://www.tutorialhub.in/    java and other topics url by Prakash chauhan
+
+
+http://docs.oracle.com/javase/tutorial/java/IandI/abstract.html   Java URLS
+
+https://www.facebook.com/SeleniumWebdriverMukesh   Automation urls a good fb page
+
+
+
+
+
+
+---------------Difference between Ant and Maven ---------------
+
+
+http://www.javatpoint.com/difference-between-ant-and-maven 
+
+
+-----------------Maven Learning Page ----------------  
+
+http://www.tutorialspoint.com/maven/maven_interview_questions.htm
+
+---------Saurce Lab url for CSS Selectors -----------
+
+https://saucelabs.com/resources/selenium/css-selectors
+
+---------How to handles multiple windows-----------
+
+http://seleniumeasy.com/selenium-tutorials/how-to-handle-windows-popups-using-selenium-webdriver
+
+------------Thoughtsworks Links--------------------------------------------
+
+http://essenceoftesting.blogspot.in/2015/09/selenium-conference-2015-it-simply-came.html?utm_source=feedburner&utm_medium=twitter&utm_campaign=Feed:+EssenceOfTesting+(Essence+of+Testing)
+
+
+------------Grovvy script url------------------------
+
+http://www.techiethoughts.com/technical-posts/soap-ui/soap-ui-groovy-useful-commands.html

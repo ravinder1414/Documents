@@ -1,0 +1,133 @@
+package stepsDefinations;
+
+import org.apache.commons.lang3.RandomStringUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import pageObjects.AdmissionsPage;
+import pageObjects.ConfirmUserPageObject;
+import pageObjects.HomePageObject;
+import pageObjects.NewLeadCreationPageObjects;
+import pageObjects.NewUserPageObject;
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class NewLeadCreationStepDefination {
+	
+	//Static variable
+	String sRandStr = RandomStringUtils.randomAlphabetic(5);
+	public String sFirstName = "TestNGFNInfoCall_" + sRandStr;
+	public String sLastName = "TestNGLNInfoCall_" + sRandStr;			
+	public String sEmailAddress = sFirstName + "IC@kap.com";
+	public String sAddressLine1 = "kaplan";
+	public String sCity = "NewYork";
+	public String sDayTimePhone ="9545151234";
+	public String sZipCode = "30256";
+	public String sTCPA ="Yes";
+	public String windowName="";
+
+    WebDriver driver;
+    String url;
+    //HomePageObject homePageObject;
+    //NewUserPageObject newUserPageObject;
+    //ConfirmUserPageObject confirmUserPageObject;
+    
+    NewLeadCreationPageObjects lead =new NewLeadCreationPageObjects();
+    HomePageObject homePageObject;
+    NewUserPageObject newUserPageObject;
+    NewLeadCreationPageObjects uiNewLeadCreationPageObjects;
+    AdmissionsPage uiAdmissionsPage;
+    @Before
+    public void beforeScenario() {
+        driver=new FirefoxDriver();
+        url ="http://10.78.58.44";
+    }
+        
+	
+	@Given("^User navigate to orion(\\d+) CLS Home Page$")
+	public void user_navigate_to_orion_CLS_Home_Page(int arg1) throws Throwable {
+		driver.get(url);
+		//lead.navigateTo();
+		//driver.switchTo().window(windowName);
+		//lead.lnkAdmissionsManager().click();
+		//uiAdmissionsPage = new AdmissionsPage(driver);
+        //newUserPageObject= homePageObject.clickOnNewUserLink();
+        //return newUserPageObject;
+		//uiAdmissionsPage.lnkadmin.click();
+		
+	}
+	    
+	
+
+	@When("^User click on Admission link$")
+	public void user_click_on_Admission_link() throws Throwable {
+		//driver.get(url);
+		//NewLeadCreationPageObjects lead =new NewLeadCreationPageObjects();
+		//lead.tabAdmission().click();
+		//driver.get(url);
+		//uiLeadCreationPageObjects = new NewLeadCreationPageObjects(driver);
+		//lead.navigateTo();
+		//driver.switchTo().window(windowName);
+		//lead.lnkAdmissionsManager().click();
+		uiAdmissionsPage = new AdmissionsPage(driver);
+        //newUserPageObject= homePageObject.clickOnNewUserLink();
+        //return newUserPageObject;
+		uiAdmissionsPage.lnkAdmissions.click();
+		
+	}
+		
+
+
+	//@And("^User click on Admission Manager and Add new Leads/Referral Link$")
+	public void user_click_on_Admission_Manager_and_Add_new_Leads_Referral_Link() throws Throwable {
+		//NewLeadCreationPageObjects lead =new NewLeadCreationPageObjects();
+		lead.lnkAdmissionsManager().click();
+		lead.lnkAddNewLeadReferral().click();
+		lead.rbReferral().click();
+	    
+	}
+
+	//@When("^User fill all details for New Lead and click on Submit Button$")
+	public void user_fill_all_details_for_New_Lead_and_click_on_Submit_Button() throws Throwable {
+
+		
+		
+		lead.txtFName().sendKeys(sFirstName);
+		lead.txtLName().sendKeys(sLastName);
+		lead.txtEmail().sendKeys(sEmailAddress);
+		
+		lead.txtDayTimePhone().sendKeys(sDayTimePhone);
+		
+		lead.txtZipCode().sendKeys(sZipCode);
+		
+//TCPA Disclosure
+if(sTCPA.equalsIgnoreCase("yes"))
+{
+	lead.rbtnTCPA_Yes().click();				
+}
+else
+{
+	lead.rbtnTCPA_No().click();
+}
+	
+									
+	}
+
+	@After
+    public void afterScenario(Scenario scenario) {
+        if (scenario.isFailed()) {
+            scenario.embed(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES), "image/png");
+        }
+        driver.close();
+        driver.quit();
+
+	}
+}
+

@@ -1,0 +1,59 @@
+ public static String saveScreenshot() {
+        return saveScreenshot(null);
+    }
+
+    public static String saveScreenshot(String filename) {
+
+        String result = filename;
+
+        if (filename == null) {
+            result = "target" + "/" + "screenshot-" + System.currentTimeMillis() + ".jpg";
+        }
+
+        try {
+            File f = ((TakesScreenshot) WebDriverUtils.getBrowser()).getScreenshotAs(OutputType.FILE);
+            FileUtils.copyFile(f, new File(context.getAbsolutePath(result)));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return result;
+
+
+
+
+
+
+
+
+//public  void captureScreen(WebDriver driver)  {
+				
+				//try {
+					Thread t=Thread.currentThread();
+				    StackTraceElement element=t.getStackTrace()[2];
+				    File screenshot = ((TakesScreenshot)driver).
+				                        getScreenshotAs(OutputType.FILE);
+				    FileUtils.copyFile(screenshot, new File(System.getProperty("user.dir")+
+				    		"/src/screenshots/"+element.getMethodName()+".jpg"));
+					
+				} //catch (IOException e){
+					//e.printStackTrace();
+				//}
+	
+
+
+
+
+
+ @After
+	        public void afterScenario(Scenario scenario) {
+	            if (scenario.isFailed()) {
+	                scenario.embed(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES), "image/png");
+	            }
+	            driver.close();
+	            driver.quit();
+
+
+
+
+result = "target" + "/" + "screenshot-" + System.currentTimeMillis() + ".jpg";

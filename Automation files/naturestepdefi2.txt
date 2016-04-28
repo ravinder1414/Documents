@@ -1,0 +1,36 @@
+
+	/*//@Then("^User should be able to login successfully$")
+	//public void user_should_be_able_to_login_successfully() throws Throwable {
+		//login.validateUserSuccessfullyLoggedIN();
+        //login.clickOnLogoutLink();
+        login.validateUserNotLoggedIN();
+        
+	}
+
+	@When("^User enters invalid credentials$")
+	public void user_enters_invalid_credentials() throws Throwable {
+		login.loginUser("invalidUserID", "invalidPassword");
+	}
+
+	@Then("^User should not be able to login$")
+	public void user_should_not_be_able_to_login() throws Throwable {
+		login.validateUserNotLoggedIN();
+	}
+
+	@Given("^User is loggedin and on nature home page$")
+	public void user_is_loggedin_and_on_nature_home_page() throws Throwable {
+		login.navigateTo();
+        homePage.clickOnLoginLink();
+        login.loginUser("quickstepusernature_login@mailinator.com", "qwer1234");
+        login.validateUserSuccessfullyLoggedIN();
+	}
+
+	@When("^User clicks on logout link$")
+	public void user_clicks_on_logout_link() throws Throwable {
+		login.clickOnLogoutLink();
+	}
+
+	@Then("^User should be logout successfully$")
+	public void user_should_be_logout_successfully() throws Throwable {
+		login.validateUserNotLoggedIN();
+	*/

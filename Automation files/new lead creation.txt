@@ -1,0 +1,6 @@
+
+Feature: New Lead Creation functionality
+Scenario: Create New Lead with Valid Details
+    Given User navigate to orion1 CLS Home Page
+    When User click on Admission link
+    Then User should be able to see created Lead on Admission Manager Page

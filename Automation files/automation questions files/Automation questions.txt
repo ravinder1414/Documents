@@ -1,0 +1,99 @@
+questions
+
+what is rest based services
+
+what is web services
+
+what is null pointer exceptions
+
+what is soap services
+
+how to short array list.
+
+
+what is use of attaributes in HTML
+
+How to capture radio button through XPATH
+
+Run times and compile time polymorphism
+
+class variable,local,instance variables difference
+
+
+how to fetch data from excel files
+
+
+difference between put and post command.
+
+how to execute jmeter test cases after putting time such as first 10 user run for 5 minute and after that anothet 20 user will rin for next 10 minutes.
+
+what is index in database,self join ,whereclause() etc.
+
+what is security testing.
+
+What is volume testing.
+
+what is Equivalance partition.
+
+What is Endurance Testing
+
+
+What is Usability Testing
+
+
+peer review testing.
+
+how can we upload results through auto it
+
+http://www.testingexcellence.com/how-to-upload-files-using-selenium-and-autoit/
+
+how can we check that image is present on page or not  
+
+http://www.testingdiaries.com/selenium-verify-image-present-webdriver/
+
+
+https://www.techwell.com/techwell-insights/2016/01/when-and-when-not-automate  WHEN AND WHEN NOT AUTOMATE
+
+
+Difference between hashmap and hashtable
+
+what is primitive data type\
+
+factorail program,reverse string ,reverse number,pelentrom and find duplicate values in any array programs
+
+we can use multiple main method in same class
+
+http://stackoverflow.com/questions/13399836/can-there-exist-two-main-methods-in-a-java-program
+
+we can remove static from public static void main
+
+http://interviewquestionjava.blogspot.in/2012/01/what-if-static-modifier-is-removed-from.html
+
+can we overload main method
+
+http://stackoverflow.com/questions/3759315/can-we-overload-the-main-method-in-java
+
+
+write a program on fibonic series.
+
+why we use git other tahn another version control
+
+why we use 
+
+can a private constructor in superclass is inherited in subclass
+
+can variables are defined in interface
+
+what is use of self join
+
+
+
+
+
+
+
+
+
+
+
+

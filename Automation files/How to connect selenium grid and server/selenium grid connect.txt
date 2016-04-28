@@ -1,0 +1,42 @@
+
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\ravinder.kumar>cd\
+
+C:\>java -jar C:\JAVA_PROJECTS\Libs\selenium-server-standalone-2.46.0.jar -role
+node -hub http://localhost:4444/grid/register
+13:39:11.962 INFO - Launching a selenium grid node
+13:39:15.382 INFO - Java: Oracle Corporation 25.0-b70
+13:39:15.383 INFO - OS: Windows 7 6.1 x86
+13:39:15.510 INFO - v2.44.0, with Core v2.44.0. Built from revision 76d78cf
+13:39:17.827 INFO - RemoteWebDriver instances should connect to: http://127.0.0.
+1:5555/wd/hub
+13:39:17.828 INFO - Version Jetty/5.1.x
+13:39:17.829 INFO - Started HttpContext[/selenium-server,/selenium-server]
+13:39:17.831 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@8ad73b
+
+13:39:17.831 INFO - Started HttpContext[/wd,/wd]
+13:39:17.831 INFO - Started HttpContext[/selenium-server/driver,/selenium-server
+/driver]
+13:39:17.831 INFO - Started HttpContext[/,/]
+13:39:17.834 INFO - Started SocketListener on 0.0.0.0:5555
+13:39:17.834 INFO - Started org.openqa.jetty.jetty.Server@1dc339b
+13:39:18.184 INFO - using the json request : {"class":"org.openqa.grid.common.Re
+gistrationRequest","configuration":{"proxy":"org.openqa.grid.selenium.proxy.Defa
+ultRemoteProxy","role":"node","hub":"http://localhost:4444/grid/register","port"
+:5555,"remoteHost":"http://10.163.105.45:5555","host":"10.163.105.45","maxSessio
+n":5,"hubHost":"localhost","registerCycle":5000,"hubPort":4444,"url":"http://10.
+163.105.45:5555","register":true},"capabilities":[{"seleniumProtocol":"Selenium"
+,"browserName":"*firefox","maxInstances":5,"platform":"VISTA"},{"seleniumProtoco
+l":"Selenium","browserName":"*googlechrome","maxInstances":5,"platform":"VISTA"}
+,{"seleniumProtocol":"Selenium","browserName":"*iexplore","maxInstances":1,"plat
+form":"VISTA"},{"seleniumProtocol":"WebDriver","browserName":"firefox","maxInsta
+nces":5,"platform":"VISTA"},{"seleniumProtocol":"WebDriver","browserName":"chrom
+e","maxInstances":5,"platform":"VISTA"},{"seleniumProtocol":"WebDriver","browser
+Name":"internet explorer","maxInstances":1,"platform":"VISTA"}]}
+13:39:18.186 INFO - Starting auto register thread. Will try to register every 50
+00 ms.
+13:39:18.188 INFO - Registering the node to hub :http://localhost:4444/grid/regi
+ster

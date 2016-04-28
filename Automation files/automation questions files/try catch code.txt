@@ -1,0 +1,32 @@
+if(lnkDropDown.getText().equalsIgnoreCase("Kaplan SRM"))
+		{
+			lnkDropDown.click();
+			lnkAdmissionConsole.click();
+			Thread.sleep(10000);
+		}
+		
+			
+			/*if (lnkInquiryDropDown.getText().equalsIgnoreCase("Add An Inquiry"))
+			{
+				
+				System.out.println(lnkInquiryDropDown.getText());
+				//driver.switchTo().frame("ext-comp-1005");
+				
+			*/
+			
+
+			
+		else{
+			Thread.sleep(10000);
+			 Actions act = new Actions(driver); 
+			 act.moveToElement(lnkAddInquiryDropDown, 480, 60).click().build().perform();
+			 lnkAddInquiry.click();
+			 //act.moveToElement(lnkAddInquiryDropDown, 480, 60).click().perform();
+			 //lnkAddInquiryDropDown.click();
+			 Thread.sleep(10000);
+			 //lnkAddInquiryClick.click();
+			 //driver.switchTo().frame("ext-comp-1005");
+			
+		*/}
+	}
+		

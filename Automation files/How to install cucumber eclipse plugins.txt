@@ -1,0 +1,19 @@
+How to install cucumber eclipse plugin
+
+
+go to Help in eclipse and click on install new software
+
+click on Add link and enter name as cucumber and url is 
+
+
+http://cucumber.github.com/cucumber-eclipse/update-site
+
+
+and select cucumber eclipse plugin and click on next
+
+
+
+http://www.toolsqa.com/cucumber/install-cucumber-eclipse-plugin/
+
+
+ and also run features files by using run as ->cucumber features

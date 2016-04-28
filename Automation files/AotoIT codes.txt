@@ -1,0 +1,23 @@
+
+try {
+Runtime.getRuntime().exec("path of auto it exe");
+} catch (IOException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+
+
+
+
+
+
+WinWait("Authentication Required","",600)
+WinActivate("Authentication Required")
+if WinExists("Authentication Required") Then
+      Send("charlie\pimishra")
+      Sleep(1000)
+      Send("{TAB}")
+      Send("mp07ca@2145")
+      Sleep(1000)
+      Send("{TAB}")
+      Send("{ENTER}")
+EndIf

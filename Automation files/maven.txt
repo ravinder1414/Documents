@@ -1,0 +1,7 @@
+To see list of commands   ctrl+shift+L
+
+
+format commands   ctrl+shift+F
+
+
+

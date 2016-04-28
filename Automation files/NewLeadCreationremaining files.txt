@@ -1,0 +1,33 @@
+    
+    Scenario: Create New Lead with Invalid Details
+    Given User navigate to orion1 CLS Home Page
+    And User click on Admission link
+    And User click on Admission Manager and Add new Leads/Referral Link
+    When User fill invalid details for New Lead and click on Submit Button
+    Then User should be able to see error message
+
+
+
+
+    
+	
+
+	@Then("^User should be able to see created Lead on Admission Manager Page$")
+	public void user_should_be_able_to_see_created_Lead_on_Admission_Manager_Page()
+	throws Throwable {
+	    
+	}
+
+	@When("^User fill invalid details for New Lead and click on Submit Button$")
+	public void user_fill_invalid_details_for_New_Lead_and_click_on_Submit_Button()
+	throws Throwable {
+	    
+	}
+
+	@Then("^User should be able to see error message$")
+	public void user_should_be_able_to_see_error_message() throws Throwable {
+	    
+	}
+
+
+

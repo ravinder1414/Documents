@@ -1,0 +1,16 @@
+http://blogs.impetus.com/test_engineering/performance_engineering/countinuous%20Integration%20Jenkins-Maven-Jmeter-plugins.do
+
+
+https://wiki.jenkins-ci.org/display/JENKINS/Performance+Plugin
+
+https://wiki.jenkins-ci.org/display/JENKINS/JMeter+Plugin
+
+https://wiki.jenkins-ci.org/display/JENKINS/Integrating+TestLink++Jenkins++JMeter
+
+https://blog.codecentric.de/en/2014/01/automating-jmeter-tests-maven-jenkins/
+
+http://stackoverflow.com/questions/20738055/need-step-by-step-guide-to-execute-the-jmeter-scripts-in-jenkins-with-hudson-bu
+
+https://lincolnloop.com/blog/load-testing-jmeter-part-2-headless-testing-and-je/
+
+

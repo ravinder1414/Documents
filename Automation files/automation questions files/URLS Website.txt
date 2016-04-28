@@ -1,0 +1,141 @@
+
+---------Security Testing-------------
+
+http://www.softwaretestinghelp.com/security-testing-of-web-applications/
+
+
+-------------SQL Tutorials--------------------
+
+http://www.programmerinterview.com/index.php/database-sql/what-is-a-self-join/
+
+
+---------Action classes-------------
+
+https://selenium.googlecode.com/git/docs/api/java/org/openqa/selenium/interactions/Actions.html
+
+
+-----------Test strategies-----------------
+
+https://en.wikipedia.org/wiki/Test_strategy
+
+---------------Case study----------------------
+
+http://www.slideshare.net/USTGlobal/ust-global-case-study-functionalityregression-testing-for-online-tax-filing-product?related=2
+
+
+----------iMPORTANT SIDE FOR SELENIUM INTERVIEW QUESTIONS--------------------
+
+http://www.java2novice.com/java_interview_questions/final-finally-finalize/
+
+
+---------------Agile Testing------------------------
+
+http://essenceoftesting.blogspot.in/2016/01/the-story-of-small-vodqa-ending-up.html?utm_source=feedburner&utm_medium=twitter&utm_campaign=Feed:+EssenceOfTesting+(Essence+of+Testing)
+
+-----------------BDD Framework--------------------------------------
+
+http://www.thucydides.info/docs/serenity/
+
+
+---------------Test description----------------
+
+http://www.stickyminds.com/article/what-flaky-tests-can-tell-you
+
+
+--------------Auto complete text results-----------------------------
+
+http://www.seleniumeasy.com/selenium-tutorials/working-with-ajax-or-jquery-auto-complete-text-box-using-webdriver
+
+------------How to capure capcha values--------------------------------
+
+http://www.mythoughts.co.in/2012/11/automatingbreaking-captcha-using.html#.VrS1GdJ97cv
+
+--------------qtp Questions--------------------- in sapinet link
+
+http://www.softwaretestinggenius.com/qtp-certification-review-your-skills-q-331-to-340
+
+
+system.out.println is used in which package
+
+
+how to select multiple value from a dropdown
+
+what is default value of constructor
+
+what is finally
+----------------use of println method in java-----------------------------
+
+
+http://www.javawithus.com/tutorial/displaying-information-using-print-and-println-methods
+
+
+http://www.programmerinterview.com/index.php/java-questions/how-system-out-println-works/
+
+----------Use of static variables-------------
+
+http://www.javatpoint.com/static-keyword-in-java
+
+https://www.caveofprogramming.com/java/java-for-beginners-static-variables-what-are-they.html
+
+-----------two main method exist in java----------------
+
+http://stackoverflow.com/questions/13399836/can-there-exist-two-main-methods-in-a-java-program
+
+
+------------Use of string args[] -----------------------
+
+in public static void main(String args[]) args is an array of console line argument whose data type is String. in this array, you can store various string arguments by invoking them at the command line as shown below: java myProgram Shaan Royal then Shaan and Royal will be stored in the array as arg[0]="Shaan"; arg[1]="Royal"; you can do this manually also inside the program, when you don't call them at the command line.
+
+
+
+
+---------------Scroll down using action class----------------------
+
+http://hiromia.blogspot.in/2015/05/how-to-scroll-web-page-in-selenium.html
+
+
+can we create object of interface
+
+can we create object of abstract class
+
+
+driver=new firefoxdriver means
+
+http://www.ufthelp.com/2015/01/Java-Interface-example-in-Selenium.html
+
+
+-----------selenium grid url--------------------
+
+https://github.com/SeleniumHQ/selenium/wiki/Grid2
+
+
+-----------Flueint wait-----------------
+
+http://stackoverflow.com/questions/12041013/selenium-webdriver-fluent-wait-works-as-expected-but-implicit-wait-does-not
+
+
+-------------Cucumber gherkins------------------
+
+http://docs.behat.org/en/v2.5/guides/1.gherkin.html
+
+
+-------------New Tools like Jira------------------
+
+https://www.zoho.com/bugtracker/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

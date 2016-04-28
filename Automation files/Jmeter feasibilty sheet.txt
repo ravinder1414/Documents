@@ -1,0 +1,12 @@
+Is use of CSV data files to serve as a variables file supported?     Yes
+
+Is use of CSV data files to serve as a variables file supported?     Yes
+
+
+Test script access     Yes
+
+Licensing options:    Open source tool
+
+
+
+

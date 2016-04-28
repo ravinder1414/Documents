@@ -1,0 +1,60 @@
+package Features;
+
+import java.time.zone.ZoneOffsetTransitionRule.TimeDefinition;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+public class sRMLeadadcons {
+
+public WebDriver driver =null;
+
+ @Test
+ public void f() throws InterruptedException {
+ driver = new FirefoxDriver()	;
+ driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+ driver.get("https://srmkaplanedu--stage.cs15.my.salesforce.com");
+
+ String AppMenudriver = driver.findElement(By.id("tsidLabel")).getText();
+ 	 
+ if (!AppMenudriver.trim().equalsIgnoreCase("")){
+ System.out.println("dISPLAYED: "+AppMenudriver);
+ driver.findElement(By.id("tsidLabel")).click();
+ driver.findElement(By.linkText("Admissions Console")).click();
+ }
+ 
+
+ 
+ String Lstoptions=driver.findElement(By.xpath("//button[@id='ext-gen33']/span")).getText();
+ System.out.println("dISPLAYED: "+Lstoptions);
+ if (!Lstoptions.trim().equalsIgnoreCase("Add An Inquiry")){
+ System.out.println("dISPLAYED: "+Lstoptions);
+ WebElement ele = driver.findElement(By.xpath("//div[4]/div/div/table/tbody/tr[2]/td[2]/em"));
+ Actions builder = new Actions(driver); 
+ builder.moveToElement(ele, 480, 60).click().build().perform();
+ Thread.sleep(10000);
+ //driver.findElement(By.id("ext-gen77")).click();
+ 
+ driver.findElement(By.xpath("//span[text()='Add An Inquiry']")).click();
+
+ 
+ }
+// driver.findElement(By.xpath("//*[@id='tsid-arrow']")).click();
+ //driver.findElement(By.xpath("//a[text()='Admissions Console']")).click();
+//  WebElement ele = driver.findElement(By.xpath("//div[4]/div/div/table/tbody/tr[2]/td[2]/em"));
+ //Actions builder = new Actions(driver); 
+ //builder.moveToElement(ele, 480, 60).click().build().perform();
+ //driver.findElement(By.Hid("id=ext-gen77")).click();
+ 
+ 
+ 
+ 
+ driver.findElement(By.id("tsidLabel")).click();
+ driver.findElement(By.linkText("Kaplan SRM")).click();
+ }
+};

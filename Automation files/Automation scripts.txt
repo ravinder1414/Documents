@@ -1,0 +1,29 @@
+Listing 16. Specify the test browser
+Browsers browser;
+WebDriver driver;
+		
+if(System.getProperty(BROWSER_PROP_KEY)==null){
+	browser = Browsers.FIREFOX;
+}else{
+	browser=Browsers.browserForName(System.getProperty(BROWSER_PROP_KEY));
+}
+switch(browser){
+	case CHROME:
+		System.setProperty("webdriver.chrome.driver", 
+"src/main/resources/chromedriver");
+		driver = new ChromeDriver();
+		break;
+	case SAFARI:
+		driver = new SafariDriver();
+		break;
+	case FIREFOX:
+		default:
+		driver = new FirefoxDriver();
+		break;
+}
+
+
+
+
+
+

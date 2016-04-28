@@ -1,0 +1,34 @@
+C2K2KCC_DataSync
+
+How to verify the data sync cases
+
+
+https://docs.google.com/spreadsheets/d/13XQWbFeVlYWc6_kPo3FSd0yxg3COeO-7Kwr1BilJG9I/edit#gid=0   Database files
+
+
+X:\C2K2KCC_DataSync    Database sync
+
+
+for database go to 10.78.4.89 and login using charlie\pimishra credentials
+
+
+and use database SWLMSSQL01\STGLMS  for stage and username kcctech and password 24giveis24get
+
+C:\Documents and Settings\pimishra\My Documents\SQL Scenarions
+
+Databases
+
+Dev  Dev Environment database mssql-dev-lms.charlie.kaplaninc.com\DEVLMS
+
+Test 
+
+Stage 
+
+
+then go to then 10.78.7.60
+
+then click on the link mentioned on desktop campus vue student stage  and follows the steps as mentioned in scenarions.
+
+scenarios 1,2,3,4,6
+
+

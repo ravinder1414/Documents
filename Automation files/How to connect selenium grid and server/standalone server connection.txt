@@ -1,0 +1,13 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\ravinder.kumar>cd\
+
+C:\>java -jar C:\JAVA_PROJECTS\Libs\selenium-server-standalone-2.46.0.jar -role
+hub
+13:38:07.221 INFO - Launching a selenium grid server
+2015-03-09 13:38:08.551:INFO:osjs.Server:jetty-7.x.y-SNAPSHOT
+2015-03-09 13:38:08.647:INFO:osjsh.ContextHandler:started o.s.j.s.ServletContext
+Handler{/,null}
+2015-03-09 13:38:08.655:INFO:osjs.AbstractConnector:Started SocketConnector@0.0.
+0.0:4444
