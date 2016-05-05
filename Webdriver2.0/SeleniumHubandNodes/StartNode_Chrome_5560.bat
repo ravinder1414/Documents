@@ -1,0 +1,2 @@
+cd C:\JAVA_PROJECTS\LIBS
+java -jar selenium-server-standalone-2.46.0.jar -role webdriver -port 5560 -Dwebdriver.chrome.driver="C:\JAVA_PROJECTS\CommonLibrary\SeleniumDriver\chromedriver_win32\chromedriver.exe" -browser browserName=chrome,maxInstances=4

@@ -124,6 +124,32 @@ http://docs.behat.org/en/v2.5/guides/1.gherkin.html
 https://www.zoho.com/bugtracker/
 
 
+---------------Android Testing-------------------
+
+
+https://www.youtube.com/watch?v=TGU0B4qRlHY
+
+https://google.github.io/android-testing-support-library/docs/espresso/
+
+http://developer.android.com/training/testing/ui-testing/espresso-testing.html
+
+http://developer.android.com/training/testing/ui-testing/espresso-testing.html
+
+https://google.github.io/android-testing-support-library/docs/espresso/setup/
+
+http://www.vogella.com/tutorials/AndroidTestingEspresso/article.html
+
+http://testdroid.com/news/how-to-use-espresso-v2-0-with-testdroid-cloud-devices
+
+
+
+
+
+
+
+
+
+
 
 
 
