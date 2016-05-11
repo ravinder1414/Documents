@@ -1,0 +1,8 @@
+String sRandStr1 = RandomStringUtils.randomNumeric(3);
+public String sFirstName = "TestNGFNCR_" + sRandStr;
+public String sSocialSecurityNumber = "963257" + sRandStr1;
+
+
+
+
+ random = Math.floor(Math.random()*(999-100)+100);
