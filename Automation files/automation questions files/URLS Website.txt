@@ -151,6 +151,24 @@ http://testdroid.com/news/how-to-use-espresso-v2-0-with-testdroid-cloud-devices
 
 
 
+-------------vodqa--------------------
+
+http://www.slideshare.net/vodqancr/unbox-yourself-into-testing
+
+http://www.slideshare.net/vodqancr/security-testing-zap-it-61933659
+
+http://www.slideshare.net/vodqancr/espresso-testing
+
+
+
+
+
+
+
+
+
+
+
 
 
 
