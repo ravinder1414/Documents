@@ -161,6 +161,63 @@ http://www.slideshare.net/vodqancr/espresso-testing
 
 
 
+http://sqa.stackexchange.com/questions/9655/not-able-to-scroll-down-page-using-selenium-webdriver
+
+http://interviewquestionjava.blogspot.in/2012/01/what-if-static-modifier-is-removed-from.html
+
+http://www.programmerinterview.com/index.php/java-questions/will-finally-run-after-return/
+
+http://selenium-wd-guide.blogspot.in/2013/11/page-scroll-using-selenium-webdriver_27.html
+
+https://selenium.googlecode.com/git/docs/api/java/org/openqa/selenium/WebDriver.html
+
+http://stackoverflow.com/questions/13670991/interview-can-we-instantiate-abstract-class
+
+http://www.ufthelp.com/2015/01/Java-Interface-example-in-Selenium.html
+
+http://www.tutorialspoint.com/listtutorials/java/core-java/1
+
+https://docs.oracle.com/javase/tutorial/collections/interfaces/index.html
+
+http://selenium-venkat.blogspot.in/2016/01/selenium-interview-questions-part-1.html
+
+http://testlink.sourceforge.net/docs/documents/end-users/manual.html#d0e7
+
+http://javahungry.blogspot.com/2014/03/hashmap-vs-hashtable-difference-with-example-java-interview-questions.html
+
+http://www.tutorialspoint.com/java/java_hashtable_class.htm
+
+http://beginnersbook.com/2014/07/hashtable-in-java-with-example/
+
+http://javarevisited.blogspot.in/2010/10/difference-between-hashmap-and.html
+
+http://beginnersbook.com/2014/01/default-constructor-java-example/
+
+http://www.tutorialspoint.com/javaexamples/method_overloading.htm
+
+https://www.thoughtworks.com/insights/blog/testing-angularjs-apps-protractor
+
+https://github.com/angular/protractor
+
+https://google.github.io/android-testing-support-library/docs/espresso/
+
+http://developer.android.com/training/testing/ui-testing/espresso-testing.html
+
+
+https://india.gov.in/gsearch?s=birth+certificate&op=Search
+
+http://www.java2novice.com/java_interview_questions/final-finally-finalize/
+
+http://etrain.info/in?PAGE=LIST--PASS-TRAINS--1#!TRAIN_BETWEEN=JP-RGS
+
+http://epfigms.gov.in/
+
+
+
+
+
+
+
 
 
 
