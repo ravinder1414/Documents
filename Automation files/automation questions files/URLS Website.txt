@@ -153,6 +153,9 @@ http://testdroid.com/news/how-to-use-espresso-v2-0-with-testdroid-cloud-devices
 
 -------------vodqa--------------------
 
+------------Essence of Testing---------------
+https://essenceoftesting.blogspot.in/2016/09/waat-20-beta-available-for-use.html
+
 http://www.slideshare.net/vodqancr/unbox-yourself-into-testing
 
 http://www.slideshare.net/vodqancr/security-testing-zap-it-61933659
@@ -211,6 +214,11 @@ http://www.java2novice.com/java_interview_questions/final-finally-finalize/
 http://etrain.info/in?PAGE=LIST--PASS-TRAINS--1#!TRAIN_BETWEEN=JP-RGS
 
 http://epfigms.gov.in/
+
+
+---------------how to select span value from dropdown------------------
+
+http://stackoverflow.com/questions/26689428/how-to-select-the-value-from-span-type-dropdown-in-selenium-webdriver
 
 
 
