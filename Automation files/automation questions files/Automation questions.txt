@@ -87,6 +87,136 @@ can variables are defined in interface
 what is use of self join
 
 
+questions
+
+what is rest based services
+
+what is web services
+
+what is null pointer exceptions
+
+what is soap services
+
+how to short array list.
+
+
+what is use of attaributes in HTML
+
+How to capture radio button through XPATH
+
+Run times and compile time polymorphism
+
+class variable,local,instance variables difference
+
+
+how to fetch data from excel files
+
+
+
+What is use of main method in java
+
+Use of Listeners in TestNG
+
+
+1.How to integrate Jira with Jenkins
+
+2.How to download files through selenium webdriver.
+
+
+ URL:- http://seleniumeasy.com/selenium-tutorials/how-to-download-a-file-with-webdriver
+
+class A{
+public void test{
+SOP(HI)
+CLASS B extend A{
+SOP(bye)
+
+A a =new B
+B b=new A
+
+a.test();
+b.test();
+
+-------------------------
+Difference between git pull and git merge
+
+---------------------------
+
+string s="gspann";
+s.concate("test");
+s.lowercase();
+
+-----------------------------
+
+window1,window2,window3,window4
+
+how to switch window2 and close rem,aining windows
+
+-----------------------
+
+difference between driver.quit();driver.close();
+
+
+---------------------------------------
+
+
+frame1  frame2
+
+id:a      id 2
+
+how to drag and drop frame1 element to frame2
+
+-------------------------------------------------
+maven life cycle
+
+use of command mvn clean test
+
+-----------------------------------------------------
+
+
+in test method there are three assert commands then if first fail then how it go to the next remaining two assertions.
+
+
+------------------------------------------------------
+
+
+public class A{
+
+int x=10;
+
+public static void main {string args}
+
+x=x+10;
+
+sop(x)
+
+
+
+------------------------------------------------------------
+
+in any array having list 1,2,3,3,-------------100
+
+then how to find missing and duplicate values
+
+
+-------------------------------------------------
+
+String revrese programe
+
+
+-------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

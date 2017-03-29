@@ -154,6 +154,9 @@ http://testdroid.com/news/how-to-use-espresso-v2-0-with-testdroid-cloud-devices
 -------------vodqa--------------------
 
 ------------Essence of Testing---------------
+
+--------Essence of testing --------------
+https://essenceoftesting.blogspot.in/2016/09/vodqa-pune-less-talk-only-action-slides.html
 https://essenceoftesting.blogspot.in/2016/09/waat-20-beta-available-for-use.html
 
 http://www.slideshare.net/vodqancr/unbox-yourself-into-testing
