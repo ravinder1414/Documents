@@ -79,3 +79,8 @@ http://essenceoftesting.blogspot.in/2015/09/selenium-conference-2015-it-simply-c
 ------------Grovvy script url------------------------
 
 http://www.techiethoughts.com/technical-posts/soap-ui/soap-ui-groovy-useful-commands.html
+
+
+-----------------------------Jmeter tutorilas---------------------
+
+http://info.blazemeter.com/thank-you-using-taurus-automate-jmeter-selenium-1?utm_campaign=Webinar%20Mar.%202017%20-%20Using%20Taurus%20To%20Automate%20JMeter%20and%20Selenium%20Tests&utm_source=hs_email&utm_medium=email&utm_content=49543788&_hsenc=p2ANqtz--Q9IpF0O9xdIAjNT14LPhQivlxaV4n_h3FY1frdJ_yZSjynav5tlIG4BIPT0-MzbbIXLRPZ2tubhkJEK3xDhyq-dugrA&_hsmi=49543231

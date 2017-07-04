@@ -205,6 +205,76 @@ String revrese programe
 
 
 -------------------------------------------------------
+difference between appium and espresso
+
+https://medium.com/@satyajit/comparisons-of-appium-vs-espresso-vs-xcuitests-f6f5e5af1c7f
+
+
+system.out.println(by.id("test"))
+
+
+how many times love from string i love my country.I love my city.
+
+how to create a program in java using 1 2 3
+                                       4 5 6
+                                        7 8 9
+
+how to create a java program for pyramid
+
+
+---------------To find repeaded value from string-------------------
+
+package test;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class FrequencyCount 
+{
+    public static void main(String args[]) throws IOException
+    {
+        //BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+        String str="I love my country.I love my city";
+        System.out.println("Enter the String: " +str);
+        //String s=br.readLine();
+        String com="love";
+        System.out.println("Enter substring: " +com);
+        //String sub=br.readLine();
+        int ind,count=0;
+        for(int i=0; i+com.length()<=str.length(); i++)    //i+sub.length() is used to reduce comparisions
+        {
+            ind=str.indexOf(com,i);
+            if(ind>=0)
+            {
+                count++;
+                i=ind;
+                ind=-1;
+            }
+        }
+        System.out.println("Occurence of '"+com+"' in String is "+count);
+ 
+    }
+}
+
+-----------------------------------------------------------------------------------------------------
+
+--------------------How to record mobile app data in jmeter------------------------
+
+
+http://www.360logica.com/blog/2015/12/how-to-configure-jmeter-and-mobile-device-to-record-scripts-for-native-app-in-it.html
+
+http://www.testingdiaries.com/mobile-performance-testing-record-script-jmeter/
+
+
+------------what is epic in agile-----------------------
+
+An epic captures a large body of work. It is essentially a large user story that can be broken down into a number of smaller stories. It may take several sprints to complete an epic. An epic can span more than one project, if multiple projects are included in the board to which the epic belongs.
+
+-------------------------------------------------------------
+
+
+
+
 
 
 
