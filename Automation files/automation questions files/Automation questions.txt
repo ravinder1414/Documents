@@ -270,7 +270,162 @@ http://www.testingdiaries.com/mobile-performance-testing-record-script-jmeter/
 
 An epic captures a large body of work. It is essentially a large user story that can be broken down into a number of smaller stories. It may take several sprints to complete an epic. An epic can span more than one project, if multiple projects are included in the board to which the epic belongs.
 
+Epic can be moved to next sprint if not completed.
+
 -------------------------------------------------------------
+
+Epic - something so big it probably won't fit into a sprint, is not clearly understood in terms of customer requirements, and should be broken down into stories. T-shirt sizing is a common way to size epics. Another way is to say we think it could take X to Y iterations to do this work. Epics are usually defined during initial product roadmapping and decomposed into stories in the product backlog as more is learned.
+
+Story - something actionable and small enough to fit in a sprint. These are story pointed and defined using INVEST criteria. Stories should deliver a vertical slice of functionality to the customer that is valuable and complete by the end of an iteration. Stories are usually created throughout product development, more so leading up to iteration planning and also during higher level product roadmapping.
+
+Tasks - decomposed parts of a story that get into the HOW the story will be completed. Tasks can be hour estimated if desired. Tasks are usually defined by the people doing the work (developers, QA, etc), whereas stories and epics are generally created by the customer or the product owner representing the customer. Tasks are created within the bounds of an iteration because they are short lived. There is very little value is tasking out stories that won't be worked on in the upcoming iteration.
+
+-----------------------------------------------------------------------------------
+Requirement Traceability Matrix
+
+http://www.softwaretestinghelp.com/requirements-traceability-matrix/
+
+------------------------------------------------------------------------------------------
+
+Difference between PUT AND POST
+
+Put:-replacing existing resources or creating resources if not exist
+
+works as specific.
+
+Post:-creating new resources 
+
+works as abstratives
+
+
+------Can main method will be override or overloading---------
+
+main method can be overloded using
+
+public static void main[String [] args] {
+
+system.out.println("test");
+
+public static void main [Integer [] args] {
+
+system.out.println("test12");
+}
+
+result will be test because method is overloaded and it check only main menthod first.
+
+Overriding:- can't override main method because it is static.
+
+
+--------------How to take screenshot in selenium--------------------
+
+   public void getscreenshot() throws Exception 
+      {
+              File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+           //The below method will save the screen shot in d drive with name "screenshot.png"
+              FileUtils.copyFile(scrFile, new File("D:\\screenshot.png"));
+      }
+ }
+
+http://www.seleniumeasy.com/selenium-tutorials/take-screenshot-with-selenium-webdriver
+
+
+-------------------SoapUI TUTORIALS and videos---------------------------------------------
+
+
+
+https://www.youtube.com/watch?v=bGp1KT0_Mpg&t=1182s
+
+For Rest practice
+
+https://www.youtube.com/watch?v=62RebzIGs2c
+
+soapui ready api
+
+https://www.youtube.com/watch?v=5jLJk5E6Ybk
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+How to split a string
+
+https://www.javatpoint.com/java-string-split
+
+
+String string = "004-034556";
+String[] parts = string.split("-");
+String part1 = parts[0]; // 004
+String part2 = parts[1]; // 034556
+
+    public class SplitExample{  
+    public static void main(String args[]){  
+    String s1="java string split method by javatpoint";  
+    String[] words=s1.split("\\s");//splits the string based on whitespace  
+    //using java foreach loop to print elements of string array  
+    for(String w:words){  
+    System.out.println(w);  
+    }  
+    }}    OUTPUT:-java,string,split,method,by,javatpoint
+
+
+https://getinterviewinfo.wordpress.com/2014/08/19/adobe-technical-written-test-august-2014/  -Adobe java test questions
+
+
+------------------------------Java videos------------------------------------------------------------
+
+https://www.youtube.com/watch?v=v9zg9g_FbJY    Collections overview
+
+https://www.youtube.com/watch?v=DLP0S4-4NQ8     try catch blocks
+
+https://www.youtube.com/watch?v=zwocnEB9_1I    difference between string and string buffer
+
+https://www.youtube.com/watch?v=wSejXuogSyU&spfreload=1  difference between string buffer and string builder
+
+https://www.youtube.com/watch?v=nNwZN3mOVcw    difference between abstract class and interface
+
+https://www.youtube.com/watch?v=Tz9z4v9t_Qg   multithreading
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+How to install Geckodriver
+
+http://toolsqa.com/selenium-webdriver/how-to-use-geckodriver/
+
+
+
+
+---------------------------Appium----------------------------------------------------------------------------
+
+https://www.youtube.com/watch?v=WgnusVu9Icg   Appium setup video
+
+https://www.youtube.com/watch?v=OJhKxfTBiWU  Appium setup video
+
+https://www.youtube.com/watch?v=zb2KOnzKkw8  best video for Appium setup
 
 
 
